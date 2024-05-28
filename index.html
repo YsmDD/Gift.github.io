@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yasmine's Custom Key Rings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 2rem;
+        }
+        .custom-key-rings, .how-to-order, .upload-picture, .contact {
+            background-color: white;
+            margin: 1rem auto;
+            padding: 1rem;
+            border-radius: 8px;
+            max-width: 800px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        input[type="file"] {
+            margin-top: 1rem;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Yasmine's Custom Key Rings</h1>
+    <p>Engrave your memories on wooden key rings</p>
+</header>
+
+<nav>
+    <a href="#custom-key-rings">Custom Key Rings</a>
+    <a href="#how-to-order">How to Order</a>
+    <a href="#upload-picture">Upload Your Picture</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="custom-key-rings" class="custom-key-rings">
+    <h2>Custom Key Rings</h2>
+    <p>Yasmine creates beautiful custom wooden key rings using her laser engraver. These key rings make perfect gifts and keepsakes.</p>
+    <p>Choose a design, upload a picture, and Yasmine will engrave it onto a wooden key ring just for you!</p>
+</section>
+
+<section id="how-to-order" class="how-to-order">
+    <h2>How to Order</h2>
+    <ol>
+        <li>Choose your design and prepare your image.</li>
+        <li>Go to the <a href="#upload-picture">Upload Your Picture</a> section and submit your image.</li>
+        <li>Yasmine will receive your image and create your custom key ring.</li>
+        <li>Yasmine will contact you once your key ring is ready for delivery or pickup.</li>
+    </ol>
+</section>
+
+<section id="upload-picture" class="upload-picture">
+    <h2>Upload Your Picture</h2>
+    <form action="mailto:yasmine@example.com" method="post" enctype="multipart/form-data">
+        <label for="picture">Choose an image to upload:</label><br>
+        <input type="file" id="picture" name="picture" accept="image/*" required><br>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>If you have any questions, feel free to reach out to Yasmine at <a href="mailto:yasmine@example.com">yasmine@example.com</a>.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Yasmine's Custom Key Rings. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
